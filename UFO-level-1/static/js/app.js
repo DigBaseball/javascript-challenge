@@ -20,8 +20,8 @@ button.on("click", function() {
     var inputValue = inputElement.property("value");
 
     // Use the form input to filter the data by date
-    function selectDate(foo) {
-    return foo.datetime == inputValue;
+    function selectDate(ufo) {
+    return ufo.datetime == inputValue;
 }
 
     var filteredData = tableData.filter(selectDate);
